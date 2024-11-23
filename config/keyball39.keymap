@@ -63,12 +63,12 @@
 
         sleep {
             bindings = <&to 7>;
-            key-positions = <25 26>;
+            key-positions = <0 9>;
         };
 
         sleepoff {
             bindings = <&to 0>;
-            key-positions = <24 23>;
+            key-positions = <4 5>;
         };
     };
 
