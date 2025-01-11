@@ -487,8 +487,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -709,8 +709,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -934,8 +934,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1150,8 +1150,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1377,8 +1377,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1592,8 +1592,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1808,8 +1808,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2024,8 +2024,8 @@ rect.held, rect.combo.held {
 <path d="M378,42 l-107,0" class="combo"/>
 <path d="M378,42 l107,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="29" width="28" height="26" class="combo"/>
-<a href="#NUM">
-<text x="378" y="42" class="combo tap layer-activator">NUM</text>
+<a href="#QWRT">
+<text x="378" y="42" class="combo tap layer-activator">QWRT</text>
 </a><text x="378" y="53" class="combo hold">toggle</text>
 </g>
 </g>

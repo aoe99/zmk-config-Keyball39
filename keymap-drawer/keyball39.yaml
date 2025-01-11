@@ -323,4 +323,4 @@ combos:
 - p: [0, 9]
   k: {t: sleep, h: toggle}
 - p: [4, 5]
-  k: {t: NUM, h: toggle}
+  k: {t: QWRT, h: toggle}
