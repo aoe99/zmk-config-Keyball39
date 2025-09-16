@@ -108,8 +108,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - _
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
+  - .
   - \
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
