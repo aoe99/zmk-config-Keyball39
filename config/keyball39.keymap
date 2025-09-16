@@ -19,30 +19,38 @@
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
+
 &mt {
     tapping-term-ms = <200>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
+
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
+
 / {
     // custom shift using mod-morph 
+
     behaviors {
         cmqus: comma_question {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_QUESTION";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp QUESTION>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         dtsmi: dot_semi {
             compatible = "zmk,behavior-mod-morph";
             label = "DOT_SEMI";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp SEMI>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
+
     macros {
         Hiragana: Hiragana {
             compatible = "zmk,behavior-macro";
@@ -51,19 +59,24 @@
             label = "HIRAGANA";
         };
     };
+
     combos {
         compatible = "zmk,combos";
+
         sleep {
             bindings = <&to 7>;
             key-positions = <0 9>;
         };
+
         sleepoff {
             bindings = <&to 0>;
             key-positions = <4 5>;
         };
     };
+
     keymap {
         compatible = "zmk,keymap";
+
         default_layer {
             label = "QWRT";
             bindings = <
@@ -73,6 +86,7 @@
 &kp LCTRL  &kp LEFT_SHIFT  &kp LALT  &lt 1 TAB  &lt 2 SPACE  &lt 5 INTERNATIONAL_4  &kp INT_KANA  &kp BACKSPACE                               &kp RIGHT_WIN
             >;
         };
+
         number_layer {
             label = "NUM";
             bindings = <
@@ -82,15 +96,17 @@
 &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_ALT  &trans        &trans  &trans  &trans  &none                                   &kp RIGHT_WIN
             >;
         };
+
         symbol_layer {
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN     &kp HASH      &kp DOLLAR    &kp PERCENT                   &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &bt BT_NXT       &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                  &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &kp UP_ARROW    &trans        &trans        &bt BT_CLR                    &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
+&trans           &kp UP_ARROW    &trans        &trans        &bt BT_CLR                    &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp NON_US_BACKSLASH
 &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT     &trans        &trans        &trans  &trans  &trans                                                                 &trans
             >;
         };
+
         function_layer {
             label = "FUN";
             bindings = <
@@ -100,6 +116,7 @@
 &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
             >;
         };
+
         mouse_layer {
             label = "MOUSE";
             bindings = <
@@ -109,6 +126,7 @@
 &none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                        &none
             >;
         };
+
         scroll_layer {
             label = "SCROLL";
             bindings = <
@@ -118,6 +136,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
+
         snipe_layer {
             label = "SNIPE";
             bindings = <
@@ -127,6 +146,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
+
         sleep {
             bindings = <
 &none  &none  &none  &none  &none                &none  &none  &none  &none  &none
