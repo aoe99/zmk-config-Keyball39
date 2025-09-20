@@ -28,8 +28,8 @@ layers:
   - B
   - N
   - M
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
